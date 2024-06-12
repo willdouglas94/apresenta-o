@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/Iconarchive-Fat-Sugar-Food-Popcorn.512.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">                                                                
+    
+    <title>MendigoFLIX</title><h1></h1>
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="#inicio1">MendigoFLIX</a>
+      <a href="menu.html"><div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div></a>
+      
+      <ul class="nav-list">
+          <li><a id="inicioBtn" href="#inicio1">Início</a></li>
+          <li><a href="#movie">Filmes</a></li>
+          <li><a href="#serie">Séries</a></li>
+          <li><a href="#docu">Documentários</a></li>
+      </ul>
+  </nav>
+  </header>
+  <main></main>
+  <script src="Mendigo.js"></script>
+
+  <div class="search-box" id="inicio1">
+    <input type="text" class="search-txt" id="searchInput" placeholder="Pesquise seu Filme">
+    <a href="#" class="search-btn">
+      <img src="img/lupa.svg" alt="Lupa" height="20" width="20">
+      </a>
+  </div>
+
+<br>
+<br>
+<br>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/desenho.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/poderoso chefao.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/superman comprido.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="container text-light" id="movie">
+    <h2>Filmes</h2>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 filter-item zoom search-item" data-title="Superman Returns">
+        <a href="https://www.youtube.com/watch?v=bRqAUqAFhNw" target="_blank">
+          <img src="img/Superman_Returns_poster.jpg" class="img-fluid" alt="Superman Returns">
+        </a>
+      </div>
+      <div class="col-md-3 filter-item zoom search-item" data-title="Batman v Superman">
+        <a href="https://www.youtube.com/watch?v=IHDgrNxO-5I" target="_blank">
+          <img src="img/Batman_v_Superman_-_Poster_cinema.jpg" class="img-fluid" alt="Batman v Superman">
+        </a>
+      </div>
+      <div class="col-md-3 filter-item zoom search-item" data-title="X-Men">
+        <a href="https://www.youtube.com/watch?v=VNxwlx6etXI" target="_blank">
+          <img src="img/X-MenfilmPoster.jpg" class="img-fluid" alt="X-Men">
+        </a>
+      </div>
+      <div class="col-md-3 filter-item zoom search-item" data-title="Joker">
+        <a href="https://www.youtube.com/watch?v=7GNeP6Fce3g" target="_blank">
+          <img src="img/250px-Joker_(2019).jpg" class="img-fluid" alt="Joker">
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <br>
+  <br>
+  <br>
+  <div class="container text-light" id="serie">
+    <h2>Séries</h2>
+   <br>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 filter-item zoom search-item" data-title="The Walking Dead">
+        <a href="https://www.youtube.com/watch?v=iTOaFootkSk" target="_blank">
+          <img src="img/TWD_11T_Poster.jpg" class="img-fluid" alt="The Walking Dead">
+        </a>
+      </div>
+      <div class="col-md-3 filter-item zoom search-item" data-title="Gossip Girl">
+        <a href="https://www.youtube.com/watch?v=sWfWBJSUZKc" target="_blank">
+          <img src="img/garota.jpg" class="img-fluid" alt="Gossip Girl">
+        </a>
+      </div>
+      <div class="col-md-3 filter-item zoom search-item" data-title="Supernatural">
+        <a href="https://www.youtube.com/watch?v=31A0DqX6jHI" target="_blank">
+          <img src="img/supernatural2.jpg" class="img-fluid" alt="Supernatural">
+        </a>
+      </div>
+      <div class="col-md-3 filter-item zoom search-item" data-title="Alice in Borderland">
+        <a href="https://www.youtube.com/watch?v=WZCxI1qv310" target="_blank">
+          <img src="img/Alice_in_Borderland_poster.jpg" class="img-fluid" alt="Alice in Borderland">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+  <div class="container text-light" id="docu">
+    <h2>Documentários</h2>
+  <br>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 filter-item zoom search-item" data-title="Arnold">
+        <a href="https://www.youtube.com/watch?v=x2AEI26LBpA" target="_blank">
+          <img src="img/arnold (1).jpg" class="img-fluid" alt="Arnold">
+        </a>
+      </div>
+      <div class="col-md-3  filter-item zoom search-item" data-title="Grandes Momentos da Segunda Guerra em Cores">
+        <a href="https://www.youtube.com/watch?v=EtjNrnWq3kQ&list=PLt0VdR9OU9kt9sGuxkl32WsEhtYkTDITX" target="_blank">
+          <img src="img/hitler.jpg" class="img-fluid" alt="Grandes Momentos da Segunda Guerra em Cores">
+        </a>
+      </div>
+      <div class="col-md-3 filter-item zoom search-item" data-title="O Homem dos Músculos de Aço">
+        <a href="https://www.youtube.com/watch?v=-0EdhGptUaE&list=PLiWYQJN7w_QzOZGSDkFRmvpXAiH5nXX_K" target="_blank">
+          <img src="img/o-homem-dos-musculos-de-aco.jpg" class="img-fluid" alt="O Homem dos Músculos de Aço">
+        </a>
+      </div>
+      <div class="col-md-3 filter-item zoom search-item" data-title="Seaspiracy">
+        <a href="https://www.youtube.com/watch?v=-0EdhGptUaE&list=PLiWYQJN7w_QzOZGSDkFRmvpXAiH5nXX_K" target="_blank">
+          <img src="img/seaspiracy - -mar-vermelho-1617121174666_v2_599x839.jpg" class="img-fluid" alt="Seaspiracy">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+<br>
+<br>
+<br>
+  <br>
+  <br>
+  <br>
+  <div class="container text-light" id="">
+    <h2>Assistidos Recentemente</h2>
+  <br>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 filter-item zoom search-item" data-title="Akira">
+        <a href="https://www.youtube.com/watch?v=nA8KmHC2Z-g" target="_blank">
+          <img src="img/akira1.webp" class="img-fluid" alt="Akira">
+        </a>
+      </div>
+      <div class="col-md-3 filter-item zoom search-item" data-title="Maze Runner">
+        <a href="https://www.youtube.com/watch?v=ql4epTOWdNg" target="_blank">
+          <img src="img/maze runner1.jpg" class="img-fluid" alt="Maze Runner">
+        </a>
+      </div>
+      <div class="col-md-3 filter-item zoom search-item" data-title="Vikings">
+        <a href="https://www.youtube.com/watch?v=9GgxinPwAGc" target="_blank">
+          <img src="img/vikings2.webp" class="img-fluid" alt="Vikings">
+        </a>
+      </div>
+      <div class="col-md-3 filter-item zoom search-item" data-title="The Boys">
+        <a href="https://www.youtube.com/watch?v=m1lv458bxdg" target="_blank">
+          <img src="img/the boys.webp" class="img-fluid" alt="The Boys">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+ 
+ 
+
+  
+  
+  <div class="container text-light">
+    <div class="s-m">
+      <a href="https://www.instagram.com/pobreflixoficial/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://x.com/pobreflix" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com/pobreflix/?locale=pt_BR" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://play.google.com/store/apps/details?id=com.PobreFlix.pobre.flix.movies.series&hl=en_US&pli=1" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+      <a href="https://www.youtube.com/channel/UCyVBEoNjdAR9Oc7jCt227ZA" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+    <footer>
+      <p>© 2024. Feito por Davi, Tácio, Marcio, Willian.</p>
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const searchInput = document.querySelector(".search-txt");
+        const searchItems = document.querySelectorAll(".search-item");
+        const logoLink = document.querySelector(".logo");
+        // Seleciona o botão "Início" pelo ID
+        const inicioBtn = document.getElementById("inicioBtn");
+
+        // Adiciona um evento de clique ao botão "Início"
+        inicioBtn.addEventListener("click", function(event) {
+            event.preventDefault();
+            searchInput.value = ""; // Limpa o valor do input de pesquisa
+            // Mostra todos os itens novamente
+            searchItems.forEach(item => {
+                item.style.display = "block";
+            });
+        });
+
+        // Evento de input da barra de pesquisa (mantido para filtragem)
+        searchInput.addEventListener("input", function() {
+            const query = this.value.toLowerCase();
+            searchItems.forEach(item => {
+                const title = item.getAttribute("data-title").toLowerCase();
+                if (title.includes(query)) {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

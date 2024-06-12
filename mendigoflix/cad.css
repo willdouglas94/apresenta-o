@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    font-family: "Merriweather Sans", sans-serif;
+ }
+ 
+ body, html {
+   height: 125%;
+   margin: 0;
+  
+}
+
+body {
+   /* Define a imagem de fundo */
+   background-image: url('img/netflix-catalogo.jpg');
+   /* Faz a imagem cobrir todo o elemento */
+   background-size: cover;
+   /* Centraliza a imagem */
+   background-position: center;
+   /* Impede a repetição da imagem */
+   background-repeat: no-repeat;
+   /* Define a altura da div para 100% da tela */
+   height: 80%;
+}
+
+
+@media (max-width: 768px) {
+   .body {
+       background-size: contain;
+   }
+}
+
+@media (min-width: 769px) {
+   .body {
+       background-size: cover;
+   }
+}
+
+    
+    
+    #form{
+       color: white;
+       background-color: #9b1e1e;
+
+       border-radius: 15px;
+       
+       width: 400px;
+       padding: 40px;
+       margin: 150px auto;
+       
+       -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+       -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+       box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+       
+       p{
+          font-size: 0.9em;
+       }
+       
+      
+       
+       .form-group{
+          margin: 15px auto;
+            
+          label{
+             font-weight: bold;
+             font-size: 0.9em;
+          }
+          
+          .input-group{
+             border-radius: 5px;
+             -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+             -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+             box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+             
+             .input-group-addon{
+                border: none;
+                border-right: 1px solid rgba(0,0,0,0.2);
+             }
+             
+             input{
+                padding-left: 10px;
+                border-radius: 10px;
+             }
+             
+             button{
+               border-radius: 10px;
+               
+             }
+             i{
+                color: #009EDF;
+             }
+          }
+          
+          input{
+             padding: 3px;
+             width: 100%;
+             border: none;
+             border-radius: 0 5px 5px 0;
+          }
+       }
+    }
+ }
